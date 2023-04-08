@@ -1,0 +1,387 @@
+* {
+    background-color: #E2EEFA;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.h1 {
+    width: 100%;
+    background-color: white;
+    font-size: 200px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hh2 {
+    width: 1310px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 24px;
+    background-color: #6485A4;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.name {
+    margin-top: 30px;
+    margin-left: 70px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#name {
+    width: 1080px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    margin-left: 20px;
+}
+
+#date {
+    width: 500px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+.date {
+    margin-left: 70px;
+    margin-top: 20px;
+    float: left;
+}
+
+.gender {
+    margin-top: 26px;
+    margin-left: 60px;
+}
+
+#gender {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.address {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+#Address {
+    width: 1200px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.phone {
+    margin-top: 20px;
+    margin-left: 70px;
+    float: left;
+}
+
+#phone {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    width: 500px;
+    height: 30px;
+    border: none;
+    background-color: white;
+}
+
+.email {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#email {
+    padding-left: 10px;
+    width: 500px;
+    height: 30px;
+    border: none;
+    background-color: white;
+}
+
+.number {
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 20px;
+    float: left;
+}
+
+#number {
+    height: 30px;
+    width: 500px;
+    border: none;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.Security {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+
+#Security {
+    width: 470px;
+    height: 30px;
+    margin-left: 20px;
+    border: none;
+    background-color: white;
+}
+
+.status {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+#status {
+    margin-left: 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: white;
+}
+
+.occupation {
+    margin-left: 70px;
+    margin-top: 20px;
+    float: left;
+}
+
+#occupation {
+    width: 500px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    background-color: white;
+}
+
+.retired {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#retired {
+    width: 520px;
+    height: 30px;
+    border: none;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.hh3 {
+    width: 1310px;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding-left: 10px;
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+    background-color: #6485A4;
+}
+
+.table12 {
+    width: 1300px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 70px;
+    border: 1px solid skyblue;
+}
+
+.rau0 {
+    padding: 10px;
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+.rau1 {
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+.rau2 {
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+.rau3 {
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+.rau4 {
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+.rau50 {
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+.hh4 {
+    width: 1310px;
+    font-size: 24px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: white;
+    background-color: #6485A4;
+}
+
+.units {
+    margin-top: 30px;
+    margin-left: 70px;
+    float: left;
+}
+
+#units {
+    width: 550px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    background-color: white;
+}
+
+.annual {
+    margin-top: 30px;
+}
+
+#annual {
+    width: 523px;
+    height: 30px;
+    margin-left: 20px;
+    border: none;
+    background-color: white;
+}
+
+.payment {
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+#payment {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.Application {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+#Application {
+    width: 1100px;
+    height: 30px;
+    margin-left: 20px;
+    border: none;
+    background-color: white;
+}
+
+.Planned {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+#Planned {
+    width: 1090px;
+    height: 30px;
+    border: none;
+    background-color: white;
+}
+
+.hh5 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 70px;
+    color: rgb(68, 202, 255);
+}
+
+.pp {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 70px;
+    margin-right: 200px;
+    color: rgb(68, 202, 255);
+    float: left;
+}
+
+#signature {
+    width: 540px;
+    height: 30px;
+    margin-top: 10px;
+    border: 2px solid rgb(68, 202, 255);
+    background-color: white;
+}
+
+.Date {
+    margin-top: 20px;
+    margin-left: 830px;
+}
+
+#Date {
+    width: 480px;
+    height: 30px;
+    margin-left: 20px;
+    padding-left: 10px;
+    border: none;
+    background-color: white;
+}
+
+.table11 {
+    width: 1300px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 18px;
+}
+
+#employee {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#Spouse {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.rau60 {
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+.rau61 {
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+.rau62 {
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+.hh6 {
+    margin-top: 30px;
+    margin-left: 70px;
+}

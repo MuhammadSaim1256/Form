@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="h1">Application Form</h1>
+    <form>
+        <h2 class="hh2">A.General Question</h2>
+    <div class="name">
+        <label for="name">Proposed Insured's Name: 
+            <br>
+            (Please use capital letter)</label>
+        <input type="text" id="name" maxlength="25" size="60" minlength="15">
+    </div>
+    <div class="date">
+    <label for="date">Birth Date:</label>
+    <input type="date" id="date">
+    </div>
+    <div class="gender">
+        <label for="gender">&nbsp; Gender</label>
+        <input type="checkbox" name="gender" id="gender" value="Male">Male
+        <input type="checkbox" name="gender" id="gender" value="Female">Female
+        </div>
+        <div class="address">
+            <label for="Address">Address:</label>
+    <input type="text" name="Address" id="Address" size="75">
+        </div>
+        <div class="phone">
+            <label for="phone">Phone Number:</label>
+    <input type="text" name="phone" id="phone" placeholder="+123-345-578-90" size="30">
+        </div>
+        <div class="email">
+            <label for="email">Email Address:</label>
+    <input type="email" name="email" id="email" placeholder="jhon123@gmail.com" size="30">
+        </div>
+        <div class="number">
+            <label for="number">Id Number:</label>
+            <input type="text" name="number" id="number" size="30">
+        </div>
+        <div class="Security">
+            <label for="Security">Social Security Number:</label>
+    <input type="text" name="social security number" id="Security" size="30">
+        </div>
+        <div class="status">
+            <label for="status">Status</label>
+    <input type="checkbox" name="status" id="status" value="single">Single
+    <input type="checkbox" name="status" id="status" value="Married">Married
+    <input type="checkbox" name="status" id="status" value="Devorced">Devorced
+    <input type="checkbox" name="status" id="status" value="Other">Other
+        </div>
+        <div class="occupation">
+            <label for="occupation">Occupation:</label>
+    <input type="text" name="occupation" id="occupation" size="30">
+        </div>
+        <div class="retired">
+            <label for="retired">Are you retired ?</label>
+    <input type="text" name="are you retired ?" id="retired" size="30">
+        </div>
+            <h2 class="hh3">B.Type of Health Covearge</h2>
+            <table class="table11" border="1">
+                <tbody>
+                    <tr>
+                        <th class="rau60">
+                            <label for="employee">Employee</label>
+                            <input type="checkbox" name="employee" id="employee" value="Yes">Yes
+                            <input type="checkbox" name="employee" id="employee" value="No">No
+                            <br>Plane Choice
+                        </th>
+                            <th class="rau61">
+                                <label for="Spouse">Spouse</label>
+                                <input type="checkbox" name="Spouse" id="Spouse" value="Yes">Yes
+                                <input type="checkbox" name="employee" id="Spouse" value="No">No
+                                <br>Plane Choice
+                            </th>
+                            <th class="rau62">
+                                <label for="Childern">Childern</label>
+                                <input type="checkbox" name="Spouse" id="Childern" value="Yes">Yes
+                                <input type="checkbox" name="employee" id="Spouse" value="No">No
+                                <br>Plane Choice
+                            </th>
+                    </tr>
+                </tbody>
+            </table>
+            <h3 class="hh6">complete if spouce/children are proposed for insurance:</h3>
+            <table class="table12" border="1">
+                <thead>
+                    <tr>
+                        <th  class="rau0">Name</th>
+                        <th class="rau1">SSN.No</th>
+                        <th class="rau2">Relationship to Proposed Insured</th>
+                        <th class="rau3">Birth Date</th>
+                        <th class="rau4">Age</th>
+                        <th class="rau50">Sex</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="rau5"></td>
+                        <td class="rau6"></td>
+                        <td class="rau7"></td>
+                        <td class="rau8"></td>
+                        <td class="rau9"></td>
+                        <td class="rau10"></td>
+                    </tr>
+                    <tr class="rau2">
+                        <td class="rau11"></td>
+                        <td class="rau12"></td>
+                        <td class="rau13"></td>
+                        <td class="rau14"></td>
+                        <td class="rau15"></td>
+                        <td class="rau16"></td>
+                    </tr>
+                    <tr>
+                        <td class="rau17"></td>
+                        <td class="rau18"></td>
+                        <td class="rau19"></td>
+                        <td class="rau20"></td>
+                        <td class="rau21"></td>
+                        <td class="rau22"></td>
+                    </tr>
+                    <tr class="rau4">
+                        <td class="rau23"></td>
+                        <td class="rau24"></td>
+                        <td class="rau25"></td>
+                        <td class="rau26"></td>
+                        <td class="rau27"></td>
+                        <td class="rau28"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2 class="hh4">C.The Policy</h2>
+            <div class="units">
+                <label for="units">Units</label>
+                <input type="text name" id="units" size="30">
+            </div>
+            <div class="annual">
+                <label for="annual">Annual Premium:</label>
+    <input type="text name" id="annual" size="30">
+            </div>
+            <div class="payment">
+                <label for="payment">Payment Methode</label>
+    <input type="checkbox" name="payment methode" id="payment" value="Annual">Annual
+    <input type="checkbox" name="payment methode" id="payment" value="Semi-Annual">Semi-Annual
+    <input type="checkbox" name="payment methode" id="payment" value="Monthly PAT(complete PAT card)">Monthly PAT(complete PAT card)
+    </div>
+    <div class="Application">
+        <label for="Application">Cash with Application:&nbsp;&nbsp;$</label>
+    <input type="text" name="Application" id="Application" size="70">
+    </div>
+    <div class="Planned">
+        <label for="Planned">Planned Medical Premium:&nbsp;&nbsp;$</label>
+    <input type="text" name="Planned" id="Planned" size="70">
+    </div>
+        <h3 class="hh5">Terms & Conditions</h3>
+    <p class="pp">Improvement should be measured regularly and assessed in <br> order for you to know what's beneficial and what is not. This will <br>
+        help you set new targets.
+    </p>
+    <div class="signature">
+        <label for="signature">Signature:</label>
+        <br>
+        <input type="text" name="signature" id="signature" size="30">
+    </div>
+    <div class="Date">
+        <label for="Date">Date</label>
+    <input type="date" name="Date" id="Date">
+    </div>
+    </form>
+</body>
+</html>
